@@ -1,10 +1,9 @@
-[build-system]
-requires = ["setuptools>=42", "wheel"]
-build-backend = "setuptools.build_meta"
-
-[tool.black]
-line-length = 100
-target-version = ["py310"]
-
-[tool.isort]
-profile = "black"
+[project]
+name = "mcp-think-tool"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp>=1.2.0",
+]

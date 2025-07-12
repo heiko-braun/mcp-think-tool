@@ -18,7 +18,7 @@ This MCP server implements the "think" tool as described in Anthropic's [blog po
 Install from PyPI:
 
 ```bash
-pip install mcp-think-tool
+uv pip install .
 ```
 
 ## Configuration
